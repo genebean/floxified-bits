@@ -21,6 +21,9 @@ gnupg.pkg-path = "gnupg"
 gnugrep.pkg-path = "gnugrep"
 gnused.pkg-path = "gnused"
 cosign.pkg-path = "cosign"
+which.pkg-path = "which"
+file.pkg-path = "file"
+cacert.pkg-path = "cacert"
 # hello.pkg-path = "hello"
 # nodejs = { version = "^18.4.2", pkg-path = "nodejs_18" }
 

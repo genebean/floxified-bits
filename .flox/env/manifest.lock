@@ -6,11 +6,17 @@
       "bash": {
         "pkg-path": "bash"
       },
+      "cacert": {
+        "pkg-path": "cacert"
+      },
       "cosign": {
         "pkg-path": "cosign"
       },
       "curl": {
         "pkg-path": "curl"
+      },
+      "file": {
+        "pkg-path": "file"
       },
       "git": {
         "pkg-path": "git"
@@ -41,6 +47,9 @@
       },
       "wget": {
         "pkg-path": "wget"
+      },
+      "which": {
+        "pkg-path": "which"
       }
     },
     "vars": {},
@@ -193,6 +202,130 @@
         "info": "/nix/store/qiajqdldk3nr95g9y3jfcxxcwh17arjh-bash-5.2p26-info",
         "man": "/nix/store/qlzcfdbnrdj5w58c75jjvmr3f0cn77n5-bash-5.2p26-man",
         "out": "/nix/store/i1x9sidnvhhbbha2zhgpxkhpysw6ajmr-bash-5.2p26"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "cacert",
+      "broken": false,
+      "derivation": "/nix/store/0kb813460y5v4swrpz88j1gdkmph7csk-nss-cacert-3.101.1.drv",
+      "description": "Bundle of X.509 certificates of public Certificate Authorities (CA)",
+      "install_id": "cacert",
+      "license": "MPL-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
+      "name": "nss-cacert-3.101.1",
+      "pname": "cacert",
+      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
+      "rev_count": 665011,
+      "rev_date": "2024-08-11T07:55:43Z",
+      "scrape_date": "2024-08-14T02:08:40Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "nss-cacert-3.101.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/s5i98f4p9vj7md51y5qq3m0yhq7gxq2h-nss-cacert-3.101.1",
+        "p11kit": "/nix/store/l8pvhn05vsh6y9fww16nlqwccnnq4kri-nss-cacert-3.101.1-p11kit",
+        "unbundled": "/nix/store/0dqa1vdghdfzlr2qbgkmgsph3nqvglgx-nss-cacert-3.101.1-unbundled"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "cacert",
+      "broken": false,
+      "derivation": "/nix/store/9g0k9lbshlb1ayv0qc795fdws1xvf1xq-nss-cacert-3.101.1.drv",
+      "description": "Bundle of X.509 certificates of public Certificate Authorities (CA)",
+      "install_id": "cacert",
+      "license": "MPL-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
+      "name": "nss-cacert-3.101.1",
+      "pname": "cacert",
+      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
+      "rev_count": 665011,
+      "rev_date": "2024-08-11T07:55:43Z",
+      "scrape_date": "2024-08-14T02:08:40Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "nss-cacert-3.101.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/4ka4rb8gr3526n6cjzcgn9s07xjl2cb7-nss-cacert-3.101.1",
+        "p11kit": "/nix/store/7ar4zq9wc0ans539j9qgbb5l27a1ix8k-nss-cacert-3.101.1-p11kit",
+        "unbundled": "/nix/store/3fzpjxnm4lhlwdqh6kwl3v82vdqpkagn-nss-cacert-3.101.1-unbundled"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "cacert",
+      "broken": false,
+      "derivation": "/nix/store/c7h92s7q5cj1fbav88hnylxy25dl0swn-nss-cacert-3.101.1.drv",
+      "description": "Bundle of X.509 certificates of public Certificate Authorities (CA)",
+      "install_id": "cacert",
+      "license": "MPL-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
+      "name": "nss-cacert-3.101.1",
+      "pname": "cacert",
+      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
+      "rev_count": 665011,
+      "rev_date": "2024-08-11T07:55:43Z",
+      "scrape_date": "2024-08-14T02:08:40Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "nss-cacert-3.101.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/4ih0r7c18kz8gvsmxpri93sivxs4fp1d-nss-cacert-3.101.1",
+        "p11kit": "/nix/store/pa02nbfr7f3xxkv94g2nnr8i8hrzqhdi-nss-cacert-3.101.1-p11kit",
+        "unbundled": "/nix/store/0i6kfkksxpwd8zwi34w7758lsgf6zjz9-nss-cacert-3.101.1-unbundled"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "cacert",
+      "broken": false,
+      "derivation": "/nix/store/qsa72yg4wfqr07znppcxxwp7b9sl9s0p-nss-cacert-3.101.1.drv",
+      "description": "Bundle of X.509 certificates of public Certificate Authorities (CA)",
+      "install_id": "cacert",
+      "license": "MPL-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
+      "name": "nss-cacert-3.101.1",
+      "pname": "cacert",
+      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
+      "rev_count": 665011,
+      "rev_date": "2024-08-11T07:55:43Z",
+      "scrape_date": "2024-08-14T02:08:40Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "nss-cacert-3.101.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/awnmm98ja9nrlw5qw6ikq1gp88fphrnd-nss-cacert-3.101.1",
+        "p11kit": "/nix/store/3660snhd3ss5p468s8fr188s5352gw9n-nss-cacert-3.101.1-p11kit",
+        "unbundled": "/nix/store/s6dv3qwcdsi48a0z11fwgawxdc95am3g-nss-cacert-3.101.1-unbundled"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -447,6 +580,134 @@
         "devdoc": "/nix/store/8ir4cggnbannsvch97vhzlcm66ffn462-curl-8.8.0-devdoc",
         "man": "/nix/store/b4dcsaqi4rq412266xjgsdxhlz3j9j1l-curl-8.8.0-man",
         "out": "/nix/store/y6w7agm3aw5p96q7vsgzivba0dqq3rd0-curl-8.8.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "file",
+      "broken": false,
+      "derivation": "/nix/store/vy0d7fvcxs5nhfk3846ybwbzvv1s2sfc-file-5.45.drv",
+      "description": "Program that shows the type of files",
+      "install_id": "file",
+      "license": "BSD-2-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
+      "name": "file-5.45",
+      "pname": "file",
+      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
+      "rev_count": 665011,
+      "rev_date": "2024-08-11T07:55:43Z",
+      "scrape_date": "2024-08-14T02:08:40Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "5.45",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "dev": "/nix/store/6qi3m9nf5yjx6g8mz3qanly0xk9l3ima-file-5.45-dev",
+        "man": "/nix/store/59sw2wi6jk9g5vyv9wrqr8gcnn65jvcl-file-5.45-man",
+        "out": "/nix/store/apqqsrdg6xsz9icx04siw3l4z9yrxws3-file-5.45"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "file",
+      "broken": false,
+      "derivation": "/nix/store/mgs6n7s2h64qy0s7x7q67p25hbhpbxsl-file-5.45.drv",
+      "description": "Program that shows the type of files",
+      "install_id": "file",
+      "license": "BSD-2-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
+      "name": "file-5.45",
+      "pname": "file",
+      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
+      "rev_count": 665011,
+      "rev_date": "2024-08-11T07:55:43Z",
+      "scrape_date": "2024-08-14T02:08:40Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "5.45",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "dev": "/nix/store/7yw126vmp83mlnsk187fkbplrl6yprsi-file-5.45-dev",
+        "man": "/nix/store/nnpb6v45ha33ba3m1yk7pvgsyqkrqbpk-file-5.45-man",
+        "out": "/nix/store/6a2y8r70k2syw6718nzxj73s9nri4vgd-file-5.45"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "file",
+      "broken": false,
+      "derivation": "/nix/store/57fjkx28jvdd55n9l888dwa3vc4r03aw-file-5.45.drv",
+      "description": "Program that shows the type of files",
+      "install_id": "file",
+      "license": "BSD-2-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
+      "name": "file-5.45",
+      "pname": "file",
+      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
+      "rev_count": 665011,
+      "rev_date": "2024-08-11T07:55:43Z",
+      "scrape_date": "2024-08-14T02:08:40Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "5.45",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "dev": "/nix/store/p4z3nprams02rddfjd2cfp83mma0plca-file-5.45-dev",
+        "man": "/nix/store/7gjc4pyh2lnp2vhhfl5midqprsmd666p-file-5.45-man",
+        "out": "/nix/store/x7h7y31ls3r9ycbpwxlzys9b514g1nga-file-5.45"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "file",
+      "broken": false,
+      "derivation": "/nix/store/28kz0acwfw4blp60nxg7gnw3qv1ikvfa-file-5.45.drv",
+      "description": "Program that shows the type of files",
+      "install_id": "file",
+      "license": "BSD-2-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
+      "name": "file-5.45",
+      "pname": "file",
+      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
+      "rev_count": 665011,
+      "rev_date": "2024-08-11T07:55:43Z",
+      "scrape_date": "2024-08-14T02:08:40Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "5.45",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "dev": "/nix/store/6818861f8gip4d8gq8zzbxnynwi5dbw1-file-5.45-dev",
+        "man": "/nix/store/4ikjizb57fxzrcm896r9vzh37cgmk40h-file-5.45-man",
+        "out": "/nix/store/3kkzc6l0cl2iqv1a6vxlk4g5bsr3n1im-file-5.45"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -1665,6 +1926,122 @@
       ],
       "outputs": {
         "out": "/nix/store/p3ihr1m8kv4wahm5zci65w1sinpilzqf-wget-1.24.5"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "which",
+      "broken": false,
+      "derivation": "/nix/store/87mfc7ixfmyw1kxxs8mh3isd78gyda0h-which-2.21.drv",
+      "description": "Shows the full path of (shell) commands",
+      "install_id": "which",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
+      "name": "which-2.21",
+      "pname": "which",
+      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
+      "rev_count": 665011,
+      "rev_date": "2024-08-11T07:55:43Z",
+      "scrape_date": "2024-08-14T02:08:40Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.21",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/ghsv4i7adj4bys0a232c41amjl0n5a7n-which-2.21"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "which",
+      "broken": false,
+      "derivation": "/nix/store/dd9jkb666v1sc4cwi1a8ln3vmq145i6z-which-2.21.drv",
+      "description": "Shows the full path of (shell) commands",
+      "install_id": "which",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
+      "name": "which-2.21",
+      "pname": "which",
+      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
+      "rev_count": 665011,
+      "rev_date": "2024-08-11T07:55:43Z",
+      "scrape_date": "2024-08-14T02:08:40Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.21",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/1x0yih053iq1m4ckn62nnim366n50m3f-which-2.21"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "which",
+      "broken": false,
+      "derivation": "/nix/store/r7zv8s642vkv4mz4h4zqc87rrmh3b1rb-which-2.21.drv",
+      "description": "Shows the full path of (shell) commands",
+      "install_id": "which",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
+      "name": "which-2.21",
+      "pname": "which",
+      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
+      "rev_count": 665011,
+      "rev_date": "2024-08-11T07:55:43Z",
+      "scrape_date": "2024-08-14T02:08:40Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.21",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/wlmysyfiw68qgrqvbq5n0g5zm0cm915f-which-2.21"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "which",
+      "broken": false,
+      "derivation": "/nix/store/553p3p57ysf8jj9kvm6h98nvac208q6h-which-2.21.drv",
+      "description": "Shows the full path of (shell) commands",
+      "install_id": "which",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a58bc8ad779655e790115244571758e8de055e3d",
+      "name": "which-2.21",
+      "pname": "which",
+      "rev": "a58bc8ad779655e790115244571758e8de055e3d",
+      "rev_count": 665011,
+      "rev_date": "2024-08-11T07:55:43Z",
+      "scrape_date": "2024-08-14T02:08:40Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.21",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/w40ik54r0nv4fjqwiqs81ixpmdf2xdfw-which-2.21"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
